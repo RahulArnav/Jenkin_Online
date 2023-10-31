@@ -25,7 +25,7 @@ import genericUtilities.PropertyFileUtility;
 import genericUtilities.WebDriverUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class CreateContactWithOrganizationTest_Jenkin extends BaseClass{
+public class CreateContactWithOrganizationTest extends BaseClass{
 
 	@Test
 	public void CreateContactWithOrgTest() throws IOException, InterruptedException {
