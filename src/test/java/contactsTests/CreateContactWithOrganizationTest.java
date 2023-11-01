@@ -111,8 +111,11 @@ public class CreateContactWithOrganizationTest extends BaseClass{
 		ContactsInfoPage cip = new ContactsInfoPage(driver);
 		String contactHeader = cip.getHeaderText();
 		Assert.assertTrue(contactHeader.contains(LASTNAME));
+		
 		System.out.println(contactHeader);
+		
 		System.out.println("PASS");
+		
 //		if (contactHeader.contains(LASTNAME)) {
 //			System.out.println(contactHeader);
 //			System.out.println("PASS");
